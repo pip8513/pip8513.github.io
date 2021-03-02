@@ -1,0 +1,198 @@
+/*Title on top of each page.*/
+#welcome {
+	margin:auto;
+	padding-top: 20px;
+	padding-bottom:30px;
+	align-self: center;
+	text-align:center;
+	font-size: 40px;
+	/*position:fixed;*/
+}
+
+/*Navigaion main div that contains other links*/
+#headerLinks {
+	width:75%;
+	height:30px;
+	margin:auto;
+	align-self: center;
+	/*position:fixed;*/
+
+}
+#content{
+	margin-top:20px;
+}
+
+/*Navigation header link divs*/
+.nav {
+	width: 25%;
+	height: 20px;
+	text-align: center;
+	float:left;
+	/*position:fixed;*/
+}
+
+/*Heading Links font and such.*/
+.navLinks {
+	font-size: 20px;
+}
+
+.carousel-image{
+	max-width:75%;
+	max-height:250px;
+	display:block;
+	/*height: auto;*/
+	text-align: center;
+	align-self: center;
+	margin-left:auto;
+
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	vertical-align: middle;
+}
+
+.carousel-item{
+	max-width:100% !important;
+	height:300px;
+	margin:auto !important;
+	vertical-align: middle;
+	/*background-color: lightgray;*/
+	text-align: center;
+
+}
+
+.carousel{
+	max-width:75% !important;
+	margin:auto !important;
+
+	float;
+	/*background-color: black;*/
+	/*height: 300px;*/
+
+}
+
+.carousel-link{
+	margin:auto;
+}
+
+.carousel-inner{
+	max-width:100% !important;
+	vertical-align: middle;
+	margin:auto !important;
+	/*background-color: black;*/
+	/*height: 300px;*/
+
+}
+
+.carousel-indicators{
+    background-color: black !important;
+    background-color: #f00;
+}
+.carousel-control-next-icon{
+	background-color: black !important;
+	/*text-decoration-color: black !important;*/
+}
+
+.carousel-control-prev-icon{
+	background-color: black !important;
+	/*text-decoration-color: black !important;*/
+}
+
+.sr-only{
+	text-decoration-color: f#0000 !important;
+}
+
+.w-100{
+	max-width:100% !important;
+	/*height: auto !important;*/
+	margin:auto !important;
+}
+
+#indexInfoWrapper {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height:150px;
+	align-self: center;
+	/*margin:auto;*/
+}
+
+
+#indexLocation {
+	width:40%;
+	/*height: 150px;*/
+	float:right;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#indexRules {
+	width:40%;
+	/*height: 150px;*/
+	float:left;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#indexSponsors{
+	/*float:left;*/
+	/*align-self: center;*/
+	text-align: center;
+}
+
+#libraryDiv {
+	max-width:80%;
+	height:600px;
+	align-content: center;
+	text-align: center;
+	overflow: auto;
+	margin:auto;
+}
+
+.libraryImage {
+	max-height: 200px;
+	width:auto;
+}
+
+td {
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid black;
+	border-collapse: collapse
+}
+
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
+	margin:auto;
+}
+/*
+#gameLibraryTable{
+	border-collapse: true;
+	border:1px;
+}*/
+
+.leaderboardTable{
+	margin:auto;
+	position: relative;
+	float:center;
+	text-align: center;
+
+}
+
+.buttonDiv{
+	position: relative;
+	/*width: 75%;*/
+	text-align: center;
+	color: white;
+	float:center;
+	margin:auto;
+
+}
+
+.copyrightLink{
+	font-size: 10px;
+}

@@ -1,0 +1,106 @@
+var gameHistory = {
+    "1": {
+        "ID": "1",
+        "date": "2019/01/02",
+        "game": "Carcassonne",
+        "players": "Brett,David,Phil,Brandon",
+        "winner": "Phil",
+        "playTime": "30"
+    },
+    "2": {
+        "ID": "2",
+        "date": "2019/01/02",
+        "game": "Carcassonne",
+        "players": "Brett,David,Phil,Brandon",
+        "winner": "David",
+        "playTime": "30"
+    },
+    "3": {
+        "ID": "3",
+        "date": "2019/01/02",
+        "game": "Carcassonne",
+        "players": "Brett,David,Phil,Brandon",
+        "winner": "Phil",
+        "playTime": "30"
+    },
+    "4": {
+        "ID": "4",
+        "date": "2019/01/23",
+        "game": "Rising Sun",
+        "players": "Robinson,David,Brandon,Phil,Josh,Brett",
+        "winner": "Brandon",
+        "playTime": "150"
+    },
+    "5": {
+        "ID": "5",
+        "date": "2019/01/30",
+        "game": "Captain Sonar",
+        "players": "Robinson,David,Brandon,Phil,Josh,Brett,Milty,Ryan",
+        "winner": "Robinson,David,Brandon,Phil",
+        "playTime": "10"
+    },
+    "6": {
+        "ID": "6",
+        "date": "2019/01/30",
+        "game": "Captain Sonar",
+        "players": "Robinson,David,Brandon,Phil,Josh,Brett,Milty,Ryan",
+        "winner": "Robinson,David,Brandon,Phil",
+        "playTime": "5"
+    },
+    "7": {
+        "ID": "7",
+        "date": "2019/01/30",
+        "game": "Captain Sonar",
+        "players": "Robinson,David,Brandon,Phil,Josh,Brett,Milty,Ryan",
+        "winner": "Milty,Ryan,Josh,David",
+        "playTime": "20"
+    },
+    "8": {
+        "ID": "8",
+        "date": "2019/01/30",
+        "game": "Captain Sonar",
+        "players": "Robinson,David,Brandon,Phil,Josh,Brett,Milty,Ryan",
+        "winner": "Milty,Ryan,Josh,David",
+        "playTime": "20"
+    },
+    "9": {
+        "ID": "9",
+        "date": "2019/02/27",
+        "game": "Power Grid",
+        "players": "David,Brett,Phil,Josh,Robinson",
+        "winner": "Brett",
+        "playTime": "180"
+    },
+    "10": {
+        "ID": "10",
+        "date": "2019/03/06",
+        "game": "Valor and Villainy",
+        "players": "David,Brett,Phil",
+        "winner": "Brett",
+        "playTime": "200"
+    },
+    "11": {
+        "ID": "11",
+        "date": "2019/03/13",
+        "game": "Valor and Villainy",
+        "players": "David,Brett,Phil",
+        "winner": "David,Phil",
+        "playTime": "180"
+    },
+    "12": {
+        "ID": "12",
+        "date": "2019/03/20",
+        "game": "Valor and Villainy",
+        "players": "David,Brett,Phil",
+        "winner": "Brett",
+        "playTime": "140"
+    },
+    "13": {
+        "ID": "13",
+        "date": "2019/03/27",
+        "game": "Star Wars: Outer Rim",
+        "players": "David,Brett,Phil,Josh",
+        "winner": "Josh",
+        "playTime": "170"
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div id="welcome">Add to Library</div>
+	<div id="headerLinks"></div>
+	<br/>
+	<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST" target="_blank">
+		<fieldset>
+			<legend><h3>Add game to library:</h3></legend>
+			<h3>Required Elements: </h3>
+			<label for="owner">Game Owner: <input type="text" name="owner" id="owner" required></label>
+			<br/>
+			<label for="game">Game title: <input type="text" name="game" id="game" required></label>
+			<br/>
+			<label for="players">Number of Players: <input type="text" name="players" id="players" min="1" max="100" required></label> (i.e. 3-5)
+			<br/>
+			<label for="length">Playing Time (minutes): <input type="number" name="length" id="length" min="1" max="1000" required></label>
+			<br/>
+			<h3>Optional Elements: </h3>
+			<label for="gameType">Game Style: <input type="text" name="gameType" id="gameType"></label>
+			<br/>
+			<label for="bggLink">BoardGameGeek.com Reference: <input type="text" name="bggLink" id="bggLink"></label>
+			<br/>
+			<input type="submit" value="Add Game!" id="addNewGame">
+			</fieldset>
+    </form>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
